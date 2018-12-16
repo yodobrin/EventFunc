@@ -23,3 +23,5 @@ The function would push social events (tweets) to a designated event hub, it wil
 
 ### PumpIt - Logic App
 The logic app, is configured as a recurring trigger. In the first scenario where the **PumpEvents** function is used the logic app, was configured to be triggered on every second. It then spawn 4-6 concurrent calls to the function ommiting 2000-3000 events per sec.
+
+![Logic App](https://user-images.githubusercontent.com/37622785/50053150-6e30d080-0138-11e9-9f94-a448443a9ed8.png)
