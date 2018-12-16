@@ -18,7 +18,7 @@ The function will attempt to pull from the query param *bulksize* and use this v
 
 The current message sent has limited concern in the cardinality of the individual messages, as the aim and focus was to load ADX with multiple concurrent events.
 
-### PumpSocialEvents
+### PumpSocialEvents - WIP
 The function would push social events (tweets) to a designated event hub, it will send either according to a *bulksize* parameter passed. If a prameter was not passed it would use a default bulk size which is *500* messages.
 
 ### PumpIt - Logic App
