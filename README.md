@@ -1,9 +1,11 @@
 # EventFunc
 ## Overview
+The main focus of this repository is to show case ADX Capabilities. ADX is Microsoft's data exploration tool. The use in this case will reflect its near real time ingestion and fast query results.
+To do so, the first step is a simulator of events. The simulator push events to event hub. ADX is configured to listen to this event hub, and ingest its content to specific table with in the ADX DB.
+
 Simulator which push multiple events to eventhub. Each function would push diffrent type of messages to designated event hub.
 The event hub would be used by ADX as the source to specific tables.
 
-The main idea behind this repository is to show case the query capabilities of ADX together with its near real time data ingestion.
 
 
 ## High Level Architecture
